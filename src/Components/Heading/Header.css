@@ -1,0 +1,72 @@
+.Head {
+    padding: 20px 0;
+    color: #000;
+}
+
+.logos h1 {
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.Head .icon {
+    margin-left: 10px;
+}
+
+/* *********************** Header ********************* */
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin: 0 30px;
+}
+
+header ul {
+    padding: 35px 20px;
+}
+
+header li {
+    margin-right: 45px;
+}
+
+header ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+    .start {
+        clip-path: none;
+    }
+
+    header {
+        margin: 0;
+        background-color: #1eb2a6;
+        position: relative;
+    }
+
+    header ul .flexls {
+        display: none;
+    }
+
+    .mobile-nav {
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
+    }
+}

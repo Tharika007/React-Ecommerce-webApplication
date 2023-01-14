@@ -1,0 +1,75 @@
+.productcard {
+    background-image: url('../../Images/Othersbackground.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    padding-top: 15%;
+    padding-left: 100px;
+    padding-right: 50px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px ;
+    grid-template-rows: 1fr 1fr;
+  }
+
+.productcard .items {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;  
+    margin: 45px;
+  }
+.productcard .img {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    background-size: cover;
+  }
+.productcard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.productcard .text {
+    text-align: center;
+  }
+.productcard .text h1 {
+    font-size: 18px;
+    font-weight: 500;
+    text-overflow: hidden;
+  }
+.productcard .rate {
+    margin: 10px 0;
+    color: yellow;
+  }
+.productcard .rate i {
+    font-size: 13px;
+    margin-right: 5px;
+  }
+.productcard .details img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+.productcard .details .box {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px;
+    color: #fff;
+  }
+
+  .outline-btn {
+    width: 300px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 18px;
+    text-align: center;
+  }
+
