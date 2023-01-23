@@ -1,0 +1,94 @@
+.contactbackground {
+  background-image: url('../../Images/Othersbackground.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  padding-top: 15%;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.container{
+  max-width: 100%;
+  margin: auto;
+}
+
+.flexls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactbackground iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+.contactbackground .left {
+   padding-right: 80px;
+
+  }
+  .contactbackground h1 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .contactbackground p {
+    color: grey;
+  }
+  .contactbackground .items {
+    margin: 30px 0;
+  }
+  .contactbackground .box p {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .contactbackground textarea,
+  .contactbackground input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid grey;
+  }
+  form .flexSB input:nth-child(1) {
+    margin-right: 10px;
+  }
+  .contactbackground h3 {
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .contactbackground span {
+    color: #1eb2a6;
+    font-weight: 600;
+    font-size: 15px;
+    word-spacing: 5px;
+  }
+.sendmsg {
+    background-color: rgb(41, 37, 37);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 24px 36px -11px rgba(0 0 0 /9%);
+}
+
+  @media screen and (max-width: 768px) {
+    .contactbackground .container {
+      flex-direction: column;
+    }
+    .contactbackground iframe {
+      height: 50vh;
+    }
+    .contactbackground .row {
+      width: 100%;
+    }
+  }
+  

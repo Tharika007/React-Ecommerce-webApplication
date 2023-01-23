@@ -42,27 +42,3 @@ body {
   width: 50%;
 }
 
-button {
-  padding: 20px 50px;
-  border: none;
-  font-size: 25px;
-  font-weight: 600;
-  margin: 30px 30px 0 0;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 0 24px 36px -11px rgba(0 0 0 /9%);
-}
-
-button i {
-  margin-left: 5px;
-  color: #fff;
-}
-
-button:hover {
-   color: #FCD12A;
-}
-
-.primary-btn {
-  background-color: rgb(41, 37, 37);
-  color: #fff;
-}

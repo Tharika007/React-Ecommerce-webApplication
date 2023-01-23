@@ -14,8 +14,8 @@ const Header = () => {
                 <nav className="flexls">
                     <ul className={click ? "mobile-nav" : "flexls"} onClick={() => setClick(false)}>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/products">Products</Link></li>
-                        <li><Link to="/GiftCards">Gift Cards</Link></li>
+                        <li><Link to="/todaydeals">Today's Deals</Link></li>
+                        <li><Link to="/alldeals">All Deals</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </nav>
