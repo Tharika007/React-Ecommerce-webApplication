@@ -17,7 +17,7 @@ const Productcard = () => {
                   </div>
                 </div>
                 <div className='text'>
-                  <h1>{val.coursesName}</h1>
+                  <h1>{val.itemName}</h1>
                   <div className='rate'>
                     <i className='fa fa-star'></i>
                     <i className='fa fa-star'></i>
@@ -27,10 +27,10 @@ const Productcard = () => {
                     <label htmlFor=''>(5.0)</label>
                   </div>
                   <div className='details'>
-                    {val.courTeacher.map((details) => (
+                    {val.itemdetails.map((details) => (
                       <>
                         <div className='box'>
-                            <h4>{details.name}</h4>
+                            <h4>{details.price}</h4>
                         </div>
                       </>
                     ))}

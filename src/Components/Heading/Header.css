@@ -15,6 +15,17 @@
 
 /* *********************** Header ********************* */
 
+.container{
+    max-width: 85%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .flexls {
+    display: flex;
+    justify-content: space-between;
+  }
+  
 header {
     background-color: rgba(0, 0, 0, 0.5); 
     margin: 0 30px;
