@@ -18,6 +18,7 @@ const Header = () => {
                         <li><Link to="/alldeals">All Deals</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
                     </ul>
+                    <Link to="/login" className="navbtn">Login</Link>
                 </nav>
             </header>
 
